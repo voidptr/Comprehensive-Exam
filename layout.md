@@ -5,7 +5,6 @@ sectionIntroduction_.tex
 figures/flame_graph__control/default_figure.png
 figures/by_site_entropy__control/default_figure.png
 These_rapid_shifts_r.tex
-figures/lineagemap__control/default_figure.png
 Interestingly_the_tr.tex
 figures/functional_site_count__intertwined/default_figure.png
 subsubsectionNearby_.tex
