@@ -9,7 +9,6 @@ figures/lineagemap__control/default_figure.png
 Interestingly_the_tr.tex
 figures/functional_site_count__intertwined/default_figure.png
 subsubsectionNearby_.tex
-figures/singlestep_lostfluct/default_figure.png
 subsectionConclusion.tex
 sectionProposal__Hor.tex
 subsectionMethods_We.tex
