@@ -1,7 +1,6 @@
 abstract.tex
 .tex
 sectionIntroduction_.tex
-figures/by_site_entropy__control/default_figure.png
 These_rapid_shifts_r.tex
 Interestingly_the_tr.tex
 subsubsectionNearby_.tex
