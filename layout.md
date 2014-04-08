@@ -2,7 +2,6 @@ abstract.tex
 .tex
 figures/environment/default_figure.png
 sectionIntroduction_.tex
-figures/flame_graph__control/default_figure.png
 figures/by_site_entropy__control/default_figure.png
 These_rapid_shifts_r.tex
 Interestingly_the_tr.tex
