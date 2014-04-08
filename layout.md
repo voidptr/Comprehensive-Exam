@@ -12,5 +12,4 @@ subsubsectionNearby_.tex
 figures/singlestep_lostfluct/default_figure.png
 subsectionConclusion.tex
 sectionProposal__Hor.tex
-figures/Figure/default_figure.png
 subsectionMethods_We.tex
