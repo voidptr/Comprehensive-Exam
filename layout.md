@@ -22,6 +22,7 @@ ce/subsection_Discussion_We_conclude_that__.tex
 hgt/horizontal_gene_transfer.tex
 subsubsection_Origins_of_HGT_in__.tex
 subsubsection_Hypotheses_Hypothesis_1_Organisms__.tex
+subsection_Proposed_Methods_Draft_40__.tex
 ml/shape_mut_landscape.tex
 ss/sexual_selection.tex
 conclusion.tex
