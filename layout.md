@@ -52,6 +52,7 @@ figures/118_ratio_sum_matings_gen1__pretty/118_ratio_sum_matings_gen1__pretty.pn
 Mating_rates_between_populations_is__.tex
 Interestingly_this_change_in_display__.tex
 figures/image8-23/image8-23.png
+figures/image9-25/image9-25.png
 In_all_trials_we_saw__.tex
 conclusion.tex
 bibliography.bib
