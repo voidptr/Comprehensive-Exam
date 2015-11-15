@@ -26,6 +26,7 @@ figures/by_site_entropy__control/by_site_entropy__control.png
 figures/by_site_entropy__benign/by_site_entropy__benign.png
 figures/by_site_entropy__hostile/by_site_entropy__hostile.png
 ce/subsubsection_Genetic_Architecture_These_rapid__.tex
+Interestingly_both_the_benign_and__.tex
 ce/subsubsection_Nearby_mutational_landscape_The__.tex
 ce/subsection_Discussion_We_conclude_that__.tex
 hgt/horizontal_gene_transfer.tex
