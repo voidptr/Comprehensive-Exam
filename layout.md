@@ -39,7 +39,7 @@ ce/subsection_Conclusion_We_conclude_that__.tex
 hgt/horizontal_gene_transfer.tex
 hgt/subsubsection_Origins_of_HGT_in__.tex
 hgt/subsubsection_Hypotheses_The_first_series__.tex
-hgt/subsection_Proposed_Methods_Draft_40__.tex
+hgt/subsection_Proposed_Methods_I_propose__.tex
 figures/Figure/Figure.png
 For_the_first_series_of__.tex
 ml/section_Relating_Robustness_Modularity_and__.tex
