@@ -1,0 +1,15 @@
+\subsection{Methods}
+
+We used the Avida digital evolution platform to examine the effects of changing environments on the genomes of evolved digital organisms.
+
+We subjected a total of 150 replicate populations of digital organisms to two different treatments of two-phase cyclical changing environments, plus a static control. The environment cycles between equal-length periods of reward and punishment. Each cycle extends for 1000 updates, or roughly 30 generations. In the static control, there is no cycle. Rather, the rewards remain constant. The complete experiment extends for 200 cycles, or 200,000 updates.
+
+The organisms are rewarded for performing two logical tasks: XOR and EQU. XOR is rewarded with a 23-fold fitness bonus, while EQU is rewarded with 25-fold bonus. In the hostile treatment, as the cycle progresses, the XOR reward remains constant, while the EQU reward cycles between a +25 bonus and a -25 bonus. The benign treatment is identical to the hostile treatment, except that the reward drops to 0 rather than -25.
+
+EQU is identified as the Fluctuating Task. XOR, because it is rewarded continuously, is identified as the Backbone Task, and is used as a background for comparing the separation or intertwining of functional genetic components in the evolution of EQU. XOR is also rewarded at a lower fitness level than EQU in order to encourage the evolution and maintenance of EQU.
+
+For the experiments described in this section, the individual genomes are held at a fixed length, but are mutated after each successful replication event at a rate of 0.00075 point mutation events per site. The Avida world is 60x60, and the initial populations were seeded with previously organisms that were evolved to perform XOR and EQU in an environment with a static reward. Thus, the organisms genetic architecture for performing XOR and EQU was tightly intertwined, with very low modularity.
+
+\begin{quote}
+[ FIGURE HERE SHOWING BASE ORGANISM’S ARCHITECTURAL LAYOUT ]
+\end{quote}
