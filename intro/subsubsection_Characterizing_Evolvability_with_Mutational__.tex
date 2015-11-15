@@ -3,8 +3,8 @@
 The components of a phenotype can be conceptualized as a graph of connected genotype nodes in the mutational landscape. The evolutionary properties of a phenotype are dependent on the characteristics of this graph.  Each node within the phenotype graph is a member genotype, and it is connected to the other nodes in the phenotype by single-step mutations. For convenience, these nodes are colored white, and identified as realized genotypes. Further, potential mutants in the 1-neighborhood that also share the phenotype are also added as nodes to this graph, but are colored black. Finally, the rest of the 1-neighborhood is added to the graph, colored uniquely based on their phenotype. 
 
 In order to characterize the shape of the mutational landscapes within a phenotype, and their corresponding relationship to evolvability, we will measure the properties of the realized genotype mutational graph, such as average and median node-connectedness, both within and outside the phenotype, both to realized and potential mutants. 
-\begin{quote}
 
+\begin{minipage}{\textwidth}
 
 Average Network Density, $D_K$, is measured by:
 
@@ -17,7 +17,8 @@ Average Network Density, $D_K$, is measured by:
 \begin{equation}
 D_{K} =  {\frac{1}{k} \sum_{i=1}^{k}}\frac{D_k}{nm} 
 \end{equation}
-\end{quote}
+
+\end{minipage}
 
 Unrealized network robustness is an analogous measure to Phenotypic robustness ($r_P$) but focuses specifically on unrealized mutational robustness, not directly on realized neutral variation. This measure is therefore diagnostic of apparent variations in phenotypic frequency. 
 
