@@ -12,7 +12,6 @@ intro/subsubsection_Measuring_robustness_Robustness_to__.tex
 intro/subsection_Measuring_Defining_Evolvability_As__.tex
 intro/subsubsection_Characterizing_Evolvability_with_Mutational__.tex
 intro/subsection_Avida_We_use_the__.tex
-begin_figure_h_begin_center__.tex
 figures/squishedCPU/squishedCPU.png
 Populations_in_Avida_experience_natural__.tex
 ce/changing_environments.tex
