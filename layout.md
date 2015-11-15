@@ -12,6 +12,7 @@ intro/subsubsection_Measuring_robustness_Robustness_to__.tex
 intro/subsection_Measuring_Defining_Evolvability_As__.tex
 intro/subsubsection_Characterizing_Evolvability_with_Mutational__.tex
 intro/subsection_Avida_We_use_the__.tex
+figures/squishedCPU/squishedCPU.png
 ce/changing_environments.tex
 ce/subsection_Methods_We_used_the__.tex
 ce/subsection_Results_and_Discussion_Our__.tex
