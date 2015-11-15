@@ -45,7 +45,6 @@ ss/subsubsection_Experimental_Design_The_sexually__.tex
 ss/subsection_Results_and_Discussion_In__.tex
 Mating_rates_between_populations_is__.tex
 Interestingly_this_change_in_display__.tex
-figures/image9-25/image9-25.png
 In_all_trials_we_saw__.tex
 conclusion.tex
 bibliography.bib
