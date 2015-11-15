@@ -1,0 +1,24 @@
+\subsubsection{Measuring robustness}
+
+Robustness to mutation can be assessed in different ways, either from the perspective of the phenotype, the genotype, or combinations of the two.  From the perspective of an individual genotype, you can assess its individual robustness by calculating the proportion of the number of unique phenotypes that are different from the expressed phenotype, and are in its 1-neighborhood, that is, are connected to that genotype by single-step mutations. [ref]
+Genotypic robustness, , of a genotype G, is measured by:
+enumerating all possible single-step mutants that may arise from the given genotype: ;
+counting those mutants that are neutral phenotypic variants:;
+calculating the proportion of neutral phenotypic variants to reflect the probability of a neutral variant being produced by this genotype in response to mutation. [ref A. Wagner a paradox resolved]
+r_{G} =  \frac{R_{G}}{nm}
+ 
+
+Genotypic robustness is trivially negatively correlated with genotypic evolvability, because each neutral variant in the 1-neighborhood of a genotype is, by definition, not of a different phenotype. However, the inverse is not necessarily the case, because each non-neutral neighbor phenotype may not be unique. Therefore, a non-robust genotype may not necessarily have high evolvability if its neighborhood is dominated by a single or few distinct phenotypes [ref].
+From the perspective of the phenotype, robustness may be assessed by to taking the average genotypic robustness across the phenotype.
+Phenotypic robustness, , is measured by:
+counting the number of distinct neutral genetic variants that produce a given phenotypic trait in a population, (k);
+calculating the proportion of neutral variants produced by single-step mutations , averaged over all of the neutral genetic variants to reflect the probability of a neutral genotype in the population producing another neutral genotype in response to mutation. [ref A. Wagner a paradox resolved]
+
+r_{P} =  \frac{1}{k} \sum_{i=1}^{k} r_{G} 
+
+
+Unlike genotypic robustness, higher phenotypic robustness has been shown to correlate with phenotypic evolvability[ref AWagner] in cases where the possible number of neutral variants in a phenotype (the frequency of the phenotype) is high. With increasing numbers of neutral variants, the number of potential unique phenotypes in the 1-neighborhood of the phenotype increases.
+These measures of robustness are each limited in that they do not address realized population composition, the shape of the mutational landscape, nor the expected frequency of the target phenotype. In particular, the correlation of phenotypic robustness with evolvability depends on the expected phenotypic frequency [ref]. Thus, if the frequency is unknown, phenotypic robustness may not predict evolvability.
+Further, different populations may have vastly different numbers of realized neutral variants for a given phenotype. [reference Alberch, phenotype spaces] Factors such as gene-flow, bottle-necking, linkage dis-equilibrium, founder effects, and sexual selection may strongly affect overall diversity in populations [ref], including the neutral diversity for a particular phenotypic trait that we are concerned with.
+For this reason, while population level metrics may cause a phenotype to appear to be non-robust, this apparent value may be the result of the amount and type of realized diversity present in a given population, rather than the robustness of that phenotype as predicted by its potential neutral network [ref alberch]. Thus, because evolvability depends at least in part on realized neutral variation and on expected trait frequency,  is not a good predictor for evolvability.
+
