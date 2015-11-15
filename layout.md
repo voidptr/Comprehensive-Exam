@@ -13,6 +13,7 @@ intro/subsection_Measuring_Defining_Evolvability_As__.tex
 intro/subsubsection_Characterizing_Evolvability_with_Mutational__.tex
 intro/subsection_Avida_We_use_the__.tex
 figures/squishedCPU/squishedCPU.png
+Populations_in_Avida_experience_natural__.tex
 ce/changing_environments.tex
 ce/subsection_Methods_We_used_the__.tex
 ce/subsection_Results_and_Discussion_Our__.tex
