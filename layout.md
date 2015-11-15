@@ -6,4 +6,3 @@ Interestingly_the_tr.tex
 subsubsectionNearby_.tex
 subsectionConclusion.tex
 sectionProposal__Hor.tex
-subsectionMethods_We.tex
