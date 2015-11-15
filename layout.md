@@ -45,7 +45,7 @@ I_will_create_two_new__.tex
 ml/section_Relating_Robustness_Modularity_and__.tex
 ml/subsection_Proposed_Methods_In_order__.tex
 ss/sexual_selection.tex
-ss/subsection_Methods_Draft_80_For__.tex
+ss/subsection_Methods_For_this_research__.tex
 ss/subsubsection_Experimental_Design_The_sexually__.tex
 ss/subsection_Results_and_Discussion_Draft__.tex
 conclusion.tex
