@@ -20,6 +20,7 @@ ce/subsubsection_Genetic_Architecture_These_rapid__.tex
 ce/subsubsection_Nearby_mutational_landscape_The__.tex
 ce/subsection_Discussion_We_conclude_that__.tex
 hgt/horizontal_gene_transfer.tex
+subsubsection_Origins_of_HGT_in__.tex
 ml/shape_mut_landscape.tex
 ss/sexual_selection.tex
 conclusion.tex
