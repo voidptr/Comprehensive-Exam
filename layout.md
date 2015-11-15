@@ -22,6 +22,7 @@ figures/flame_graph__control/flame_graph__control.png
 figures/flame_graph__benign/flame_graph__benign.png
 figures/flame_graph__hostile/flame_graph__hostile.png
 The_populations_evolved_in_the__.tex
+figures/by_site_entropy__control/by_site_entropy__control.png
 ce/subsubsection_Genetic_Architecture_These_rapid__.tex
 ce/subsubsection_Nearby_mutational_landscape_The__.tex
 ce/subsection_Discussion_We_conclude_that__.tex
