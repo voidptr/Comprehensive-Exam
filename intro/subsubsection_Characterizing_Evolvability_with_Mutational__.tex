@@ -9,7 +9,7 @@ In order to characterize the shape of the mutational landscapes within a phenoty
 Average Network Density, $D_K$, is measured by:
 
 \begin{enumerate}
-\item enumerate all white nodes (set $K$)
+\item enumerating all white nodes (set $K$)
 \item count the proportion of edges to nodes within the phenotype (edges to other white nodes), for each white node in the graph ($\frac{D_k}{nm}$);
 \item calculate the average across all nodes in set $K$ to reflect the relatedness and clustering of the realized genomes in the phenotype.
 \end{enumerate}
@@ -26,7 +26,7 @@ Unrealized network robustness is an analogous measure to Phenotypic robustness (
 
 Unrealized Network Robustness, $U_K$, is measured by:
 \begin{enumerate}
-\item enumerate all white nodes (set $K$)
+\item enumerating all white nodes (set $K$)
 \item count the proportion of edges to potential mutants within the phenotype (edges to black nodes), for each white node in the graph ($\frac{U_k}{nm}$);
 \item calculate the average across all nodes in set $K$ to reflect the level of mutational robustness in the population for a given phenotype.
 \end{enumerate}
@@ -43,7 +43,7 @@ Network evolvability is an analogous measure to Genomic Diffusion Rate, and is u
 
 Network Evolvability, $E_K$, is measured by:
 \begin{enumerate}
-\item enumerate all white nodes (set $K$)
+\item enumerating all white nodes (set $K$)
 \item for each white node, count the number of colored nodes ($C$)
 \item for each white node, calculate the entropy of the edges to colored nodes, to identify the diversity of phenotypes available from that node: $e_k$.
 \item normalize the entropy against the total number of colored node edges to reflect the probability of a genotype connecting to a variety of other phenotypes ($E_k=\frac{{e_{k}}*C}{nm}$).
