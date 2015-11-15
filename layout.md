@@ -1,7 +1,6 @@
 abstract.tex
 .tex
 sectionIntroduction_.tex
-These_rapid_shifts_r.tex
 subsubsectionNearby_.tex
 subsectionConclusion.tex
 sectionProposal__Hor.tex
