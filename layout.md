@@ -30,4 +30,4 @@ ss/subsection_Methods_Draft_80_For__.tex
 ss/subsubsection_Experimental_Design_The_sexually__.tex
 ss/subsection_Results_and_Discussion_Draft__.tex
 conclusion.tex
-bib.tex
+bibliography.bib
