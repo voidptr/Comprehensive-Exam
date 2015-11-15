@@ -55,4 +55,5 @@ figures/image8-23/image8-23.png
 figures/image9-25/image9-25.png
 In_all_trials_we_saw__.tex
 conclusion.tex
+verb_an_organized_summary_of__.tex
 bibliography.bib
