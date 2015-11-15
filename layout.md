@@ -2,7 +2,6 @@ abstract.tex
 .tex
 sectionIntroduction_.tex
 These_rapid_shifts_r.tex
-Interestingly_the_tr.tex
 subsubsectionNearby_.tex
 subsectionConclusion.tex
 sectionProposal__Hor.tex
