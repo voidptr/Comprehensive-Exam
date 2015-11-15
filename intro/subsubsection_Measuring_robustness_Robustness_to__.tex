@@ -1,12 +1,21 @@
 \subsubsection{Measuring robustness}
 
 Robustness to mutation can be assessed in different ways, either from the perspective of the phenotype, the genotype, or combinations of the two.  From the perspective of an individual genotype, you can assess its individual robustness by calculating the proportion of the number of unique phenotypes that are different from the expressed phenotype, and are in its 1-neighborhood, that is, are connected to that genotype by single-step mutations. [ref]
-Genotypic robustness, , of a genotype G, is measured by:
-enumerating all possible single-step mutants that may arise from the given genotype: ;
-counting those mutants that are neutral phenotypic variants:;
-calculating the proportion of neutral phenotypic variants to reflect the probability of a neutral variant being produced by this genotype in response to mutation. [ref A. Wagner a paradox resolved]
+\begin{quote}
+
+Genotypic robustness, $r_G$, of a genotype G, is measured by:
+\begin{enumerate}
+\item enumerating all possible single-step mutants that may arise from the given genotype: $nm$;
+
+\item counting those mutants that are neutral phenotypic variants: $R_G$;
+
+\item calculating the proportion of neutral phenotypic variants to reflect the probability of a neutral variant being produced by this genotype in response to mutation. \cite{andreas_wagner_robustness_2008}
+
+\end{enumerate}
+\begin{equation}
 r_{G} =  \frac{R_{G}}{nm}
- 
+\end{equation} 
+\end{quote}
 
 Genotypic robustness is trivially negatively correlated with genotypic evolvability, because each neutral variant in the 1-neighborhood of a genotype is, by definition, not of a different phenotype. However, the inverse is not necessarily the case, because each non-neutral neighbor phenotype may not be unique. Therefore, a non-robust genotype may not necessarily have high evolvability if its neighborhood is dominated by a single or few distinct phenotypes [ref].
 From the perspective of the phenotype, robustness may be assessed by to taking the average genotypic robustness across the phenotype.
