@@ -3,17 +3,23 @@
 
 The evolution of evolvability as a formalized theory originated with Dawkins[ref] and Albrech[ref], though the concept of evolvability (as the response to selection, measured by heritability) existed much earlier, in the work of Fisher\cite{fisher_genetical_1930}  and Wright \verb|[ref??]|.  Fisher’s fundamental theorem of the response of a population to selection identified narrow-sense heritability ($h^2$) as a measure for how evolvable populations were. Evolvability as heritability ($h^2$) is a measure of the portion of the phenotypic variation in a population that can be accounted for by additive genetic effects.
 
-$h^2 = \frac{Var_A}{Var_P}$
+\begin{equation}
+h^2 = \frac{Var_A}{Var_P}
+\end{equation}
 
 While broad-sense heritability ($H^2$) refers to the entire genetic contribution to a population’s variance, including dominance and epistasis, the additive genetic variance is the component that directly relates to a population’s response to selection.\cite{houle_comparing_1992} As a measure of evolvability, narrow-sense heritability ($h^2$) was also used as a term in the breeder’s equation, in order to estimate the response of a population to artificial selection.
 
+\begin{equation}
 $R = {h^2}S$
+\end{equation}
 
 Heritability, however, is not an ideal predictor for the response to selection because it fails to integrate factors such as the population distribution of variability in a trait. \cite{houle_comparing_1992}. Heritability, being scaled by total population variation in a trait would predict the same response to selection regardless of whether the standard deviation of variance of that trait was large or small, or where the mean of that trait lay.
 
 Houle advocates for an alternative genetic variability measure that suffers from fewer of these problems: the Additive Genetic Coefficient of Genetic Variation.
 
-$CV_A = 100\sqrt{\frac{V_A}{\bar X}}$
+\begin{equation}
+CV_A = 100\sqrt{\frac{V_A}{\bar X}}
+\end{equation}
 
 Using the Additive Genetic Coefficient of Genetic Variation ($CV_A$) as the measure of genetic variability is superior to narrow-sense heritability because it scales additive genetic variance by the trait mean, rather than the total population variation. Thus, the additive variation component isn’t swamped by large population trait variance. \cite{hansen_measuring_2008}. Since life-history (fitness-related) traits tend to have very large population variances [ref], $h^2$predicts that life-history traits have very low heritability and thus low response to selection. $CV_A$, however, being scaled by trait mean, predicts much higher response to selection for life history traits. \cite{hansen_heritability_2011} \cite{houle_comparing_1992}
 
