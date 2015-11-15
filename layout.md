@@ -23,7 +23,6 @@ hgt/horizontal_gene_transfer.tex
 hgt/subsubsection_Origins_of_HGT_in__.tex
 hgt/subsubsection_Hypotheses_Hypothesis_1_Organisms__.tex
 hgt/subsection_Proposed_Methods_Draft_40__.tex
-ml/shape_mut_landscape.tex
 ml/section_Relating_Robustness_Modularity_and__.tex
 ml/subsection_Proposed_Methods_In_order__.tex
 ss/sexual_selection.tex
