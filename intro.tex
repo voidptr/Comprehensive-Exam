@@ -16,8 +16,8 @@ However, we must use caution when invoking selection at higher levels than the i
 
 With so many scopes and levels of evolvability described in the literature, with varying levels of detail and predictive power, it may be best to avoid attempting to unify the concept, and rather acknowledge that “evolvability” is not a singular idea, but rather an overlapping and interrelated set of concepts relating to adaptation and evolutionary potential. In order to understand the large field of evolvability and how the distinct scopes and ideas connect together, a historical narrative may be useful.
 
-\section{Historical Conceptions}
-\subsection{Modern Synthesis}
+\subsection{Historical Conceptions}
+\subsubsection{Modern Synthesis}
 
 The evolution of evolvability as a formalized theory originated with Dawkins[ref] and Albrech[ref], though the concept of evolvability (as the response to selection, measured by heritability) existed much earlier, in the work of Fisher [ref] and Wright [ref??].  Fisher’s fundamental theorem of the response of a population to selection identified narrow-sense heritability ($h^2$) as a measure for how evolvable populations were. Evolvability as heritability ($h^2$) is a measure of the portion of the phenotypic variation in a population that can be accounted for by additive genetic effects.
 
@@ -40,7 +40,7 @@ Heritability and Houle’s $CV_A$ still suffers from significant drawbacks as pr
 
 Clearly, such short-term, population-based measures are unsuitable for measuring larger patterns of the evolution of evolvability, especially over the long term.
 
-\subsection{Evolvability as a Distinct Concept}
+\subsubsection{Evolvability as a Distinct Concept}
 
 Dawkins, in his foundational paper on evolvability and evolutionary constraint [ref], reframed the problem of evolvability in the context of computational evolution and development.  Dawkins described a generative genetic system based on a few alleles, and rules that governed development based on the traits encoded in the alleles.  Each allele would govern the execution of a generative rule, and the rules would interact with each other as they produced the phenotype. As he added new kinds of rules (constraints) into the generative process, the system would produce more and more complexity.
 
@@ -56,7 +56,7 @@ Alberch contended that the “evolvability potential” of a dynamical system is
 
 Dawkins and Alberch laid out a compelling case for the role generative developmental systems in facilitating evolvability, but their theoretical frameworks were far from complete.
 
-\subsection{Theoretical Frameworks for the Evolution of Evolvability}
+\subsubsection{Theoretical Frameworks for the Evolution of Evolvability}
 
 The Wagner and Altenberg paper on the evolution of evolvability significantly expanded the theoretical framework behind the evolution of the genotype/phenotype map. [ref WagnerAltenberg96] They draw on knowledge from computational evolution to inform their perspective on evolvability, since the problem of evolvability is central to the representation problem in evolutionary computer science. 
 
@@ -66,13 +66,13 @@ Wagner and Altenberg focused in particular on modularity as a key feature that c
 
 Wagner and Altenberg’s paper led to a vast proliferation of new work exploring the evolution of evolvability. Of particular note is the Kirschner and Gerhart 1996 paper, which explored metazoan evolution for examples of traits that, in combination, acted to increase evolvability. The authors found numerous examples of new, evolvable features coinciding with adaptive radiations. The authors also develop a case for a combination of direct selection upon the individual for evolvability-enhancing features, and those traits persisting as by-products as a result of adaptive radiations, setting the stage for the evolution of more and more complex evolvable features.
 
-\section{So, what do I mean by Evolvability?}
+\subsection{So, what do I mean by Evolvability?}
 
 As I described above, evolvability is a series of distinct, but overlapping concepts that are generally concerned with adaptation, variation, and/or novelty generation. For the purposes of my research, I am using the Wagner/Albrecht conception of evolvability, which focuses on variability, that is, the generation of adaptive variation in response to mutation. Variability depends primarily on the organization and interrelation of the components of the genome; that is, the genetic architecture, and the resulting genotype-to-phenotype map.
 
 The major features that influence this metric for evolvability appear to be modularity of functional components and phenotypic robustness to mutation and environmental perturbation. While there are other architectural features that also contribute to evolvability, they will not be the focus of this proposal.
 
-\section{What is Modularity?}
+\subsection{What is Modularity?}
 
 Modularity is the degree to which traits or genes are self-contained. From the perspective of the phenotype, modularity can be defined as the degree to which traits are decoupled from each other, and are able to evolve and optimize freely[ref]. Phenotypic (functional) modularity may therefore be considered to be the inverse of pleiotropy [ref].
 
@@ -80,7 +80,7 @@ From the perspective of the genome, modularity is defined as the degree to which
 
 Features such as evolvability and robustness rely heavily on spatial and functional modularity [ref]. Traits with high functional modularity, and thus low pleiotropy, are able to evolve independently, and respond more quickly to selection, thus contributing to evolvability [ref]. Additionally, functionally modular traits, because they are more independent, may be more easily repurposed or co-opted by other traits to add new function. [ref]  Conversely, spatially modular genomic regions, because they are more self-contained, tend to better resist disruption from recombination [ref misevic] and horizontal gene transfer [ref HGT papers?], thus increasing robustness.
 
-\subsection{Measuring Modularity}
+\subsubsection{Measuring Modularity}
 
 For the purposes of this research, I will focus on spatial modularity. Spatial modularity may be measured by calculating the proportion of traits that are affected by a given site in the genome, normalized by the number of sites that code for a trait [ref misevic]. Trivially, this can be measured by performing knock-out experiments to identify the sites that contribute to particular function.
 
@@ -96,13 +96,16 @@ Spatial Modularity, $m_s$, is measured by:
 $m_{S} =  \frac{1}{\frac{1}{k} {\sum_{i=1}^{k} \frac{t_{k}}{T}}}$ 
 
 
-2.6 What is Robustness? 
+\subsection{What is Robustness? }
+
 Much like evolvability, robustness is a set of overlapping concepts concerned with the ability of a genotype to maintain a given phenotype despite an unexpected disruption [ref].  Most commonly, robustness is studied in regards to either perturbations in the environment or else mutational disruptions. In the first case, the evolution of robustness to environmental disturbances depends heavily on the flexibility and decoupling of gene regulatory or signaling pathways[ref]. For example, a gene-regulatory or signaling pathway that is loosely coupled may make use of signaling from multiple incoming paths, rather than depending on a single, rigid precursor. This type of arrangement is more likely to continue to function even if some part of the signaling path is disrupted. An example of this kind of robust arrangement is nerve conduction in vertebrates where axons connect several cells, thus routing signals in parallel, and avoiding single points of failure. [ref].
 For the purposes of my research, I will focus on the second case: mutational robustness. Distinct from robustness to environmental perturbation, robustness against mutation depends largely on degeneracy, redundancy, and regulatory decoupling [ref]. Degeneracy refers to a many-to-one relationship between an encoding and a product, such that several codes can produce a single output [ref]. Thus, there is a chance that mutations in the code will not alter the product. One example of this feature is codon degeneracy in biological organisms, where, depending on the hydropathy of the amino-acid, single, or even double mutations in some positions of the encoding do not affect the binding of the encoded amino-acid [ref].
 Similarly, redundancy refers to the duplication of function in multiple places in the genome, such that mutations altering function in one copy of a gene do not alter function in the other copy [ref]. Redundancy may also refer to redundancy of function within genes, such that if a mutation occurs in one portion of a gene, other neighboring portions of the protein will compensate, and the protein will retain its structure and function. [ref]
 Finally, regulatory decoupling allows for more than one kind regulatory precursor to provide inputs for a process [ref]. Thus, if mutation were to damage one set of precursors, others can take their place and preserve function. An example of this kind of architecture is in the production of the acetate precursor for the Krebs cycle, which produces ATP in all aerobic organisms [ref]. Acetate can be derived from either carbohydrates, lipids, or proteins, thus if any of those pathways are damaged by mutation, acetate can still be produced from other sources, and ATP production can continue.
 It is worth noting that many of the architectural features that confer robustness to processes and genomes are based on arrangements of modular structures [ref]. In this way, much of robustness is facilitated by the evolution of modularity.
-2.6.1 Measuring robustness
+
+\subsubsection{Measuring robustness}
+
 Robustness to mutation can be assessed in different ways, either from the perspective of the phenotype, the genotype, or combinations of the two.  From the perspective of an individual genotype, you can assess its individual robustness by calculating the proportion of the number of unique phenotypes that are different from the expressed phenotype, and are in its 1-neighborhood, that is, are connected to that genotype by single-step mutations. [ref]
 Genotypic robustness, , of a genotype G, is measured by:
 enumerating all possible single-step mutants that may arise from the given genotype: ;
@@ -124,12 +127,16 @@ Unlike genotypic robustness, higher phenotypic robustness has been shown to corr
 These measures of robustness are each limited in that they do not address realized population composition, the shape of the mutational landscape, nor the expected frequency of the target phenotype. In particular, the correlation of phenotypic robustness with evolvability depends on the expected phenotypic frequency [ref]. Thus, if the frequency is unknown, phenotypic robustness may not predict evolvability.
 Further, different populations may have vastly different numbers of realized neutral variants for a given phenotype. [reference Alberch, phenotype spaces] Factors such as gene-flow, bottle-necking, linkage dis-equilibrium, founder effects, and sexual selection may strongly affect overall diversity in populations [ref], including the neutral diversity for a particular phenotypic trait that we are concerned with.
 For this reason, while population level metrics may cause a phenotype to appear to be non-robust, this apparent value may be the result of the amount and type of realized diversity present in a given population, rather than the robustness of that phenotype as predicted by its potential neutral network [ref alberch]. Thus, because evolvability depends at least in part on realized neutral variation and on expected trait frequency,  is not a good predictor for evolvability.
-2.7 Measuring/Defining Evolvability
+
+\subsection{Measuring/Defining Evolvability}
+
 As alluded to above, the features that confer robustness may also promote evolvability by allowing for greater neutral genetic diversity within a given phenotype. The larger the number of distinct genotypes with the same phenotype, the more exploration of the genotype space that can be done without decreasing organismal fitness. As a population diffuses through such a neutral region, more potential phenotypes become available in few mutational steps. [ref neutrality paper]
 Historically, predicting this robust-yet-evolvable quality has been challenging. Previously-used measures for robustness that focus on counting the proportion of unique genotypes that compose a phenotype (Phenotypic Robustness [ref Andreas Wagner]) are limited in their ability to predict the evolvability of a population, especially where phenotypic frequency is unknown. 
 In contrast, Genomic Diffusion Rate, or the probability that an offspring will express a neutral or positive fitness effect, may be used to characterize overall population evolvability [ref to evolvability in genomic diffusion rate]. However, while genomic diffusion rate is predictive of evolvability, it does not distinguish between types of robustness, and limited in its ability to mechanistically explain the evolvability characteristics of a phenotype in a given population. 
 In order to address both of these issues, we will measure evolvability using a series of network graph metrics that describe both the level and shape of interconnectedness of realized neutral variants and their potential mutants. These aggregate metrics will be theoretically and experimentally related to existing robustness and evolvability measures to predict the evolvability of a population by accounting for both the probability of mutations changing phenotypes, as well as addressing the reasons behind those probabilities.
-2.7.1 Characterizing Evolvability with Mutational Network Graphs
+
+\subsubsection{Characterizing Evolvability with Mutational Network Graphs}
+
 The components of a phenotype can be conceptualized as a graph of connected genotype nodes in the mutational landscape. The evolutionary properties of a phenotype are dependent on the characteristics of this graph.  Each node within the phenotype graph is a member genotype, and it is connected to the other nodes in the phenotype by single-step mutations. For convenience, these nodes are colored white, and identified as realized genotypes. Further, potential mutants in the 1-neighborhood that also share the phenotype are also added as nodes to this graph, but are colored black. Finally, the rest of the 1-neighborhood is added to the graph, colored uniquely based on their phenotype. 
 In order to characterize the shape of the mutational landscapes within a phenotype, and their corresponding relationship to evolvability, we will measure the properties of the realized genotype mutational graph, such as average and median node-connectedness, both within and outside the phenotype, both to realized and potential mutants. 
 Average Network Density, , is measured by:
@@ -161,7 +168,8 @@ E_{K} =  {\frac{1}{k} \sum_{i=1}^{k}} E_k
 
 
 We will experimentally relate these measurements to the realized genomic diffusion rate, and to other measures of robustness to identify patterns in the mutational landscape that result in high evolvability while controlling for varying levels of phenotypic frequency.
-2.8 AVIDA
+\subsection{Avida}
+
 We use the Avida digital evolution platform to examine the various ways by which evolvability, modularity, and robustness evolves, and how these mechanisms affect the course of evolution.
 Avida is a software platform for performing evolution experiments with digital organisms in a virtual world. The organisms are composed of a circular genome of assembly-like computer instructions that are executed in a virtual CPU. Populations of these organisms are placed in a toroidal world in individual cells, where they are allowed to execute, reproduce, compete for space, mutate and evolve. 
  
