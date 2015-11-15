@@ -38,7 +38,7 @@ figures/secondstep_regainedfluct3/secondstep_regainedfluct3.png
 ce/subsection_Conclusion_We_conclude_that__.tex
 hgt/horizontal_gene_transfer.tex
 hgt/subsubsection_Origins_of_HGT_in__.tex
-hgt/subsubsection_Hypotheses_Hypothesis_1_Organisms__.tex
+hgt/subsubsection_Hypotheses_The_first_series__.tex
 hgt/subsection_Proposed_Methods_Draft_40__.tex
 figures/Figure/Figure.png
 I_will_create_two_new__.tex
